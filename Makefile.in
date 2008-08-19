@@ -11,8 +11,8 @@
 # Version # for 'make dist'...
 VERSION=2.0.0
 
-BINS = mtx@EXEEXT@ tapeinfo@EXEEXT@ loaderinfo@EXEEXT@ scsitape@EXEEXT@ scsieject@EXEEXT@ \
-	nsmhack@EXEEXT@
+BINS = mtx@EXEEXT@ tapeinfo@EXEEXT@ loaderinfo@EXEEXT@ scsitape@EXEEXT@ scsieject@EXEEXT@
+EXTRA_BINS = nsmhack@EXEEXT@
 DBGS := $(BINS:%@EXEEXT@=%.dbg)
 MAN = mtx.1 tapeinfo.1 loaderinfo.1 scsitape.1 scsieject.1
 MAN_HTML := $(MAN:%.1=%.html)
@@ -106,7 +106,7 @@ all:	$(BINS)
 
 dbgs: $(DBGS)
 
-install: $(BINS) $(DBGS)
+install: $(BINS)
 	$(INSTALL_DIR) $(sbindir)
 	for file in $(BINS); do \
 	$(INSTALL_BIN) "$$file" $(sbindir) ; \
