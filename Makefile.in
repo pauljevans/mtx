@@ -24,7 +24,7 @@ CXX	= @CXX@
 INSTALL	= @INSTALL@
 
 CFLAGS		= @CFLAGS@
-CPPFLAGS	= @CPPFLAGS@ -DVERSION="\"$(VERSION)\""
+CPPFLAGS	= @CPPFLAGS@ -DVERSION="\"$(VERSION)\"" -I$(srcdir) -I.
 LDFLAGS		= @LDFLAGS@
 LIBS		= @LIBS@
 USE_OBJCOPY	= @USE_OBJCOPY@
@@ -38,6 +38,9 @@ exec_prefix	= @exec_prefix@
 sbindir		= @sbindir@
 datarootdir	= @datarootdir@
 mandir		= @mandir@
+srcdir		= @srcdir@
+
+VPATH = $(srcdir)
 
 #
 # Linux on x86...
