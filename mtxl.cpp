@@ -2,7 +2,7 @@
 
 	Copyright 1997-1998 by Leonard N. Zubkoff.
 	Copyright 1999-2006 by Eric Lee Green.
-	Copyright 2007 by Robert Nelson <robertn@the-nelsons.org>
+	Copyright 2007-2008 by Robert Nelson <robertn@the-nelsons.org>
 
 	$Date: 2007-05-30 01:31:32 +0000 (Wed, 30 May 2007) $
 	$Revision: 192 $

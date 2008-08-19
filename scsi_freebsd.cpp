@@ -1,4 +1,5 @@
 /* Copyright 2000 Enhanced Software Technologies Inc. (http://www.estinc.com)
+   Copyright 2007-2008 by Robert Nelson <robertn@the-nelsons.org>
    Written by Eric Lee Green <eric@badtux.org>
 
 $Date: 2007-03-26 05:39:27 +0000 (Mon, 26 Mar 2007) $

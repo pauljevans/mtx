@@ -1,5 +1,6 @@
 /* Mammoth 2 Debug Buffer Dumper
    Copyright 2000 Enhanced Software Technologies Inc.
+   Copyright 2007-2008 by Robert Nelson <robertn@the-nelsons.org>
 
 $Date: 2007-03-26 05:39:27 +0000 (Mon, 26 Mar 2007) $
 $Revision: 188 $

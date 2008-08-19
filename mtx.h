@@ -3,6 +3,7 @@
 	Copyright 1997-1998 Leonard N. Zubkoff <lnz@dandelion.com>
 
 	Changes 1999 Eric Lee Green to add support for multi-drive tape changers.
+	Copyright 2007-2008 by Robert Nelson <robertn@the-nelsons.org>
 
 	$Date: 2007-03-26 06:03:17 +0000 (Mon, 26 Mar 2007) $
 	$Revision: 189 $
