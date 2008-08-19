@@ -79,6 +79,7 @@ typedef int DEVICE_TYPE; /* the sg interface uses this. */
 
 /* Windows Native programs built using MinGW */
 #if HAVE_DDK_NTDDSCSI_H
+#  define WIN32_LEAN_AND_MEAN
 #  include <windows.h>
 #  include <ddk/ntddscsi.h>
 #  undef DEVICE_TYPE
@@ -88,6 +89,7 @@ typedef int DEVICE_TYPE;
 
 /* Windows Native programs built using Microsoft Visual C */
 #ifdef _MSC_VER
+#  define WIN32_LEAN_AND_MEAN
 #  include <windows.h>
 #  include <winioctl.h>
 #  include <ntddscsi.h>
