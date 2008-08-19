@@ -56,6 +56,7 @@ int min(int x, int y);
 int max(int x, int y);
 
 void PrintHex(int Indent, unsigned char *Buffer, int Length);
+int ClearUnitAttention(DEVICE_TYPE fd, RequestSense_T *RequestSense);
 
 ElementStatus_T *ReadElementStatus(	DEVICE_TYPE MediumChangerFD,
 									RequestSense_T *RequestSense,
